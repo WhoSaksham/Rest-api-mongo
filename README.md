@@ -43,6 +43,8 @@
 ### `Fetch single contact @ GET: /api/contacts/getcontact/:id -Authentication required`
 
     You can pass 'id' in url while hitting api to get the desired contact information.
+    
+    If the passed 'id' does not match any contact, it will give contact not found error.
 
 ## Add a new contact
 
